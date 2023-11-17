@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="#E0E0E0"
+        android:padding="16dp">
+
+        <!-- First Row -->
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_column="1"
+                android:layout_margin="4dp"
+                android:padding="8dp"
+                android:text="TextView 1" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_column="2"
+                android:layout_margin="4dp"
+                android:padding="8dp"
+                android:text="TextView 2" />
+        </TableRow>
+
+        <!-- Second Row -->
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_column="1"
+                android:layout_margin="4dp"
+                android:padding="8dp"
+                android:text="TextView 3" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_column="2"
+                android:layout_margin="4dp"
+                android:padding="8dp"
+                android:text="TextView 4" />
+        </TableRow>
+
+        <!-- Third Row -->
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_column="1"
+                android:layout_margin="4dp"
+                android:padding="8dp"
+                android:text="TextView 5" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_column="2"
+                android:layout_margin="4dp"
+                android:padding="8dp"
+                android:text="TextView 6" />
+        </TableRow>
+
+        <!-- TextView to show data -->
+        <TableRow>
+
+            <TextView
+                android:id="@+id/dataTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_marginTop="16dp"
+                android:layout_span="2"
+                android:padding="8dp"
+                android:text="Data TextView"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>
